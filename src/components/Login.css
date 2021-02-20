@@ -1,0 +1,138 @@
+.login-main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-main-div::after {
+    content: "";
+    background-image: url("../assets/images/login_image.jpg");
+    opacity: 0.7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
+
+.Login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 400px;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    }
+
+.Login-form hr {
+    color: black;
+    border-width:5px;
+    width: 100px;
+}
+    
+.Login-text {
+        color: #ffbf00;
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    
+.username-input {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+   
+    }
+
+    
+.pass-input {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: center;
+    margin-bottom: 27px;
+    }
+    
+    
+.forgot {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        padding-top: 15px;
+    }
+
+.Login-form input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.Login-form input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #000000;
+  color: #000000;
+  transition: 0.2s ease;
+}
+
+.Login-form input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #ffbe00;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+.Login-form input[type="submit"]:hover,
+input[type="submit"]:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.Login-form input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
