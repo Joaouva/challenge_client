@@ -23,6 +23,8 @@ import "./Profile.css";
 					id: response.data._id,
 					username: response.data.username,
 					email: response.data.email,
+					name: response.data.name,
+					address: response.data.address
 				});
 			});
 		}
@@ -100,6 +102,7 @@ import "./Profile.css";
 								required
 							/>
 							<Button
+								type="submit"
 								variant="warning"
 								onClick={this.handleFormSubmit}
 							>
