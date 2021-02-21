@@ -2,13 +2,20 @@
 .bm-burger-button {
   position: fixed;
   z-index: auto;
-  width: 80px;
-  height: 80px;
-  left: 10px;
-  top: 50px;
+  width: 60px;
+  height: 60px;
+  left: 15px;
+  top: 10px;
   border-radius: 50px;
   box-shadow: 1px 5px 5px 5px rgba(0,0,0,0.3);
 }
+
+.bm-burger-button:hover {
+  width: 70px;
+  height: 70px;
+}
+
+
 
 .profile-nav-img {
   outline: none;
@@ -16,8 +23,8 @@
 }
 
 .profile-nav-img img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border: none;
 }
 
@@ -106,10 +113,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .to-home-div {
   position: fixed;
   z-index: 1;
-  width: 80px;
-  height: 80px;
-  left: 10px;
-  top: 150px;
+  width: 60px;
+  height: 60px;
+  left: 100px;
+  top: 10px;
   border-radius: 50px;
   box-shadow: 1px 5px 5px 5px rgba(0,0,0,0.3);
   background-color: black;
@@ -119,10 +126,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .to-home-div img {
-  width: 60px;
+  width: 35px;
   box-shadow: 1px 5px 5px 5px rgba(0,0,0,0.3);
 } 
 
 .to-home-div:hover {
-  opacity: 1;
+  width: 70px;
+  height: 70px;
 } 

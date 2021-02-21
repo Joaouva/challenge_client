@@ -9,9 +9,14 @@
 	background-color: rgb(233, 233, 233);
 }
 
+.menus-div {
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+
 .react-tabs__tab-panel--selected {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -21,18 +26,14 @@
 }
 
 .tab-panel {
-	padding-top: 200px;
+	padding-top: 50px;
 }
 
 
 .label {
-	position: fixed; 
-	right: 0%;
-	margin-bottom: 10%;
-	z-index: 1;
+	height: 100px;
+	margin: 0 auto;
 	background-color:#ffbf00;
-	width: 100vw;
-	height: 100px	;
 	box-shadow: 1px 5px 5px 8px rgba(0,0,0,0.3);
 	display: flex;
 	color: white;
@@ -40,23 +41,24 @@
 	font-weight: bold;
 	align-items: center;
 	justify-content: center;
-	margin: 0 auto;
 	flex-wrap: wrap;
 	padding-right: 5%;
 	padding-left: 5%
 }
 
 .card {
-	width: 70vw;
+	width: 300px;
 	height:fit-content;
 	background-color : #FFF;
 	border: none !important;
 	margin: 10px !important;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.40);
 
 }
 
+
 .menu-image img {
-	width: 70vw;
+	width: 300px;
 	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.40);
 }
 
@@ -65,7 +67,7 @@
 }
 
 .bottom h1 {
-	font-size: 5vw;
+	font-size: 20px;
 	padding-top: 5% !important;
 	color : #4B4B4B !important;
 	font-weight: bolder;
@@ -79,12 +81,12 @@
 }
 
 .bottom h5 {
-	font-size: 0.9em !important;
+	font-size: 0.8em !important;
 	color : #4B4B4B !important;
 }
 
 .bottom p {
-	font-size : 0.80rem;
+	font-size : 0.70rem;
 	color : #4B4B4B;
 	padding-top: 2%
 }
